@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-gap: 1.5rem;
+}
+.gallery_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.gallery_item-tree {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery_item-farm {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery_item-lake {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery_item-guatemala {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.gallery_item-valley {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.gallery_item-playa {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
